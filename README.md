@@ -1,26 +1,26 @@
-# analog-starter-kit-for-appwrite
+# Analog starter kit with Appwrite
 
-This project was generated with [Analog](https://analogjs.org), the fullstack meta-framework for Angular.
+Kickstart your Analog development with this ready-to-use starter project integrated with [Appwrite](https://www.appwrite.io)
 
-## Setup
+## 🚀Getting started
 
-Run `npm install` to install the application dependencies.
+###
+Clone the Project
+Clone this repository to your local machine using Git:
 
-## Development
+`git clone https://github.com/appwrite/starter-for-analog`
 
-Run `npm start` for a dev server. Navigate to `http://localhost:5173/`. The application automatically reloads if you change any of the source files.
+## 🛠️ Development guid
+1. **Configure Appwrite**<br/>
+   Navigate to `.env` and update the values to match your Appwrite project credentials.
+2. **Customize as needed**<br/>
+   Modify the starter kit to suit your app's requirements. Adjust UI, features, or backend
+   integrations as per your needs.
+3. **Install dependencies**<br/>
+   Run `npm install` to install all dependencies.
+4. **Run the app**<br/>
+   Start the project by running `npm run dev`.
 
-## Build
-
-Run `npm run build` to build the client/server project. The client build artifacts are located in the `dist/analog/public` directory. The server for the API build artifacts are located in the `dist/analog/server` directory.
-
-## Test
-
-Run `npm run test` to run unit tests with [Vitest](https://vitest.dev).
-
-## Community
-
-- Visit and Star the [GitHub Repo](https://github.com/analogjs/analog)
-- Join the [Discord](https://chat.analogjs.org)
-- Follow us on [Twitter](https://twitter.com/analogjs)
-- Become a [Sponsor](https://github.com/sponsors/brandonroberts)
+## 💡 Additional notes
+- This starter project is designed to streamline your Analog development with Appwrite.
+- Refer to the [Appwrite documentation](https://appwrite.io/docs) for detailed integration guidance.

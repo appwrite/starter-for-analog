@@ -69,9 +69,9 @@ export default class HomeComponent implements AfterViewInit {
   async sendPing() {
     if (this.status === 'loading') return;
     this.status = 'loading';
-
     try {
       const result = await this.client.ping();
+      this.zone.run(() => {
       const log: Log = {
         date: new Date(),
         method: 'GET',
@@ -81,6 +81,7 @@ export default class HomeComponent implements AfterViewInit {
       };
       this.logs = [log, ...this.logs];
       this.status = 'success';
+      });
     } catch (err: any) {
       const log: Log = {
         date: new Date(),

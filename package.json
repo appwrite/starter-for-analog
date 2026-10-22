@@ -60,7 +60,6 @@
     "vitest": "$vitest",
     "js-yaml@3": {
       "argparse": "^2.0.1"
-    },
-    "esbuild": "^0.28.1"
+    }
   }
 }

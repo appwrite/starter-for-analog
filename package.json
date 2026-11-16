@@ -59,7 +59,7 @@
     "vite": "$vite",
     "vitest": "$vitest",
     "js-yaml": {
-      "argparse": "^2.0.1"
+      "argparse": "^3.0.0"
     },
     "@analogjs/vite-plugin-nitro": {
       "esbuild": "^0.28.1"
